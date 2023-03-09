@@ -6,38 +6,6 @@ Browserslist: caniuse-lite is outdated. Please run:
   npx browserslist@latest --update-db
   Why you should do it regularly: https://github.com/browserslist/browserslist#browsers-data-updating
 PASS src/nested.test.ts
-  ● Console
-
-    console.log
-      New Name
-
-      at renameQuestionById (src/nested.ts:186:13)
-
-    console.log
-      New Name
-
-      at renameQuestionById (src/nested.ts:191:13)
-
-    console.log
-      Another Name
-
-      at renameQuestionById (src/nested.ts:186:13)
-
-    console.log
-      Another Name
-
-      at renameQuestionById (src/nested.ts:191:13)
-
-    console.log
-      Colours
-
-      at renameQuestionById (src/nested.ts:186:13)
-
-    console.log
-      Colours
-
-      at renameQuestionById (src/nested.ts:191:13)
-
 PASS src/arrays.test.ts
 PASS src/objects.test.ts
 PASS src/HtmlCss.test.tsx
@@ -62,5 +30,5 @@ All files       |     100 |      100 |     100 |     100 |
 Test Suites: 7 passed, 7 total
 Tests:       49 passed, 49 total
 Snapshots:   0 total
-Time:        4.47 s
+Time:        6.604 s
 Ran all test suites.
